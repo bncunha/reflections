@@ -1,0 +1,15 @@
+cd 'pasta'   											// entra na pasta especificada
+mkdir													// cria novo diretório
+rm														// deletar um arquivo
+-rm														// deleta um diretório com tudo dentro
+ls 														// visualiza pastas no diretório
+mv 'Diretório destino'									// mover arquivo
+
+diff -u arquivo1 arquivo2								// ver diferenças entre arquivos
+
+git log 												//ver todos os commits
+git config --global color.ui auto  						// obtém saída colorida
+git checkou	'ID COMMIT'									// volta para o commit informado
+git config --globar core.editor "'diretório'" -n -w" 	// define editor padrão; -n (abre em nova janela) -w (git espera fechar)
+git config --global push.default upstream
+git config --global merge.conflictstyle diff3
